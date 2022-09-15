@@ -23,7 +23,7 @@ const Plan = () => {
         window.open('https://discord.com/invite/9HPMvXm3Jw')
     }
     const handleJoinPremium = () => {
-        window.open('https://upgrade.chat/up-top-trading/p/up-top-subs')
+        window.open('https://upgrade.chat/up-top-trading/upgrades')
     }
     return ( 
         <Body>

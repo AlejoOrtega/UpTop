@@ -118,6 +118,7 @@ const Header = () => {
                         'aria-labelledby': 'basic-button',
                         }}
                     >
+                        <MenuItem onClick={()=>{navigate('/'); handleClose()}}>Home</MenuItem>
                         <MenuItem onClick={()=>{navigate('plans'); handleClose()}}>Plans</MenuItem>
                         <MenuItem onClick={()=>{navigate('contact-us'); handleClose()}}>Contact Us</MenuItem>
                     </Menu>
